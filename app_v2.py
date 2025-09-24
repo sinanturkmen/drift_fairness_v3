@@ -181,7 +181,7 @@ def drift_comments(numeric_drift_df: pd.DataFrame, categorical_drift_df: pd.Data
     if not tech_msgs:
         tech_msgs.append("No drift metrics exceeded default thresholds.")
 
-    return "
+    return ""
 ".join(nontech_msgs), "
 ".join(tech_msgs)
 
